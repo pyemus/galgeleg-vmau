@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/prefz" >
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="name"
+        android:summary="funktionaliteten virker ikke endnu på denne textpreferance "
+        android:title="Dit navn" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="nyeOrd"
+        android:summary="Hent ord fra nettet til Galgelegen"
+        android:title="Hent nye ord" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="androidTastetur"
+        android:summary="Brug det indbyggede android tastetur i stedet for galgelegens"
+        android:title="Brug Android tastetur" />
+
+    <ListPreference
+        android:dialogTitle="Vælg sværhedsgrad:"
+        android:entries="@array/array_dif_entries"
+        android:entryValues="@array/array_dif_entry_values"
+        android:key="lp_android_choice"
+        android:summary="Her kan du ændre sværhedgraden af ordene i Galgeleg"
+        android:title="Sværhedsgrad" >
+    </ListPreference>
+    <!-- android:password="true" -->
+
+</PreferenceScreen>
