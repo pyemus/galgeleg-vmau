@@ -1,0 +1,34 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Galgeleg</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_hoved_galge">Galgeleg</string>
+    <string name="chronometer_initial_format">Initial Format:<xliff:g id="initial-format">%</xliff:g></string>
+    <string name="svaerhedsgrad">Vælg din sværhedgrad</string>
+    
+    <string name="titel_hjalp">Hjælp til app`en</string>
+    <string name="indhold_hjalp">1. Galgeleg kan genstartes ved at ryste din telefon \n 
+        		     \n2. Tjek din score ved at klikke på knappen `HighScore´</string>
+    
+    <string name="titel_om">Omkring denne App: </string>
+    <string name="indhold_om">Galgeleg er lavet som forprojekt til mobilapplikationsudviklings kurset på IHK i efteråret 2012 
+        		     \n\nDette er første release af app´en, så bugs kan være til stede og kan rapporteres til: pyemus@gmail.com
+        		     \n\n /peter </string>
+
+    <string-array name="array_dif_entries">
+        <item>Let</item>
+        <item>Medium</item>
+        <item>Svær</item>
+        <item>Overdrevet svær!</item>
+        <item>Einstein</item>
+    </string-array>
+    <string-array name="array_dif_entry_values">
+        <item>Let</item>
+        <item>Medium</item>
+        <item>Svær</item>
+        <item>Overdrevet svær!</item>
+        <item>Einstein</item>
+    </string-array>
+
+</resources>

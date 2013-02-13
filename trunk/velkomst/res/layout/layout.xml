@@ -1,0 +1,325 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLay1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <!--
+              <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Velkommen til Galgelegen!" 
+            />
+        -->
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:format="@string/chronometer_initial_format"
+            android:gravity="top" />
+
+
+
+        <ImageView
+            android:id="@+id/galgen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="bottom" />
+
+        <!--
+            <Button
+            android:id="@+id/startknap"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+        -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ordet du skal gætte:"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/forkerte"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <!--
+          <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+         >
+    -->
+
+    <RelativeLayout
+        android:id="@+id/widget49"
+        android:layout_width="314dp"
+        android:layout_height="179dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+        <!-- ************Øverste qwerty-keys start************ -->
+
+        <LinearLayout
+            android:id="@+id/widget50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <Button
+                android:id="@+id/Button1"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="q"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button2"
+                android:layout_width="31dp"
+                android:layout_height="wrap_content"
+                android:text="w"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button3"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="e"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button4"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="r"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button5"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="t"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button6"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="y"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button7"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="u"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button8"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="i"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button9"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="o"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button10"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="p"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button11"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="å"
+                android:textSize="10sp" />
+        </LinearLayout>
+        <!-- ************Øverste qwerty-keys slut************* -->
+        <!-- ************Mellemste qwerty-keys start************ -->
+
+        <LinearLayout
+            android:id="@+id/widget51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true" >
+
+            <Button
+                android:id="@+id/Button12"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="a"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button13"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="s"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button14"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="d"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button15"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="f"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button16"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="g"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button17"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="h"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button18"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="j"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button19"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="k"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button20"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="l"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button21"
+                android:layout_width="31dp"
+                android:layout_height="wrap_content"
+                android:text="æ"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button22"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="ø"
+                android:textSize="10sp" />
+        </LinearLayout>
+        <!-- ************Mellemste qwerty-keys slut************ -->
+        <!-- ************Nederste qwerty-keys start************ -->
+
+        <LinearLayout
+            android:id="@+id/widget52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" >
+
+            <Button
+                android:id="@+id/Button23"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="z"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button24"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="x"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button25"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="c"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button26"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="v"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button27"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="b"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button28"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:text="n"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/Button29"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:text="m"
+                android:textSize="10sp" />
+            
+            <TextView 
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:text="Ryst for at genstarte spillet"
+                android:background="@drawable/back"/>
+        </LinearLayout>
+        <!-- ************Nederste qwerty-keys slut************ -->
+    </RelativeLayout>
+
+</RelativeLayout>
